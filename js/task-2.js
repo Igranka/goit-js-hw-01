@@ -1,7 +1,3 @@
-let country;
-let price;
-let deliveryFee;
-
 function getShippingMessage(country, price, deliveryFee) {
     let totalPrice = price + deliveryFee;
     return `Shipping to ${country} will cost ${totalPrice} credits`;
